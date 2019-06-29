@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: kubia-manual
+  namespace: hme-pic
 spec:
   containers:
   - image: systemdevformations/kubia
