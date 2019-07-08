@@ -4,8 +4,8 @@ kind: Namespace
 metadata:
   name: hme-pic
 ---
-apiVersion: v1
-kind: Pod
+apiVersion: extension/v1beta1
+kind: Deployment
 metadata:
   name: kubia-manual
   namespace: hme-pic
